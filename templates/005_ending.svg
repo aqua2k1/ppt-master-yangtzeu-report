@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="960" height="720" viewBox="0 0 960 720" data-pptx-master="master_01" data-pptx-master-name="slideMaster1" data-pptx-layout="layout_13" data-pptx-layout-name="2_自定义版式" data-pptx-show-master-shapes="true" data-pptx-show-inherited-shapes="true"><defs><linearGradient id="m-master_01-ggrad1" x1="0" y1="0.5" x2="1" y2="0.5"><stop offset="0" stop-color="#902430" /><stop offset="0.49" stop-color="#FBC58E" /><stop offset="0.72" stop-color="#FBC58E" /><stop offset="0.89" stop-color="#FCD9B4" /></linearGradient><linearGradient id="l-layout_13-ggrad1" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#FBC58E" stop-opacity="0.1" /><stop offset="1" stop-color="#FCD9B4" stop-opacity="0" /></linearGradient><filter id="l-layout_13-fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#B45F07" flood-opacity="0.2" /></filter><filter id="l-layout_13-layered_layout_13_slideLayout13_ill01_fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#B45F07" flood-opacity="0.2" /></filter></defs><rect x="0" y="0" width="960" height="720" fill="#FFFFFF" id="master-master_01-1-1" data-pptx-layer="master" data-pptx-editable="false" />
+<image href="../images/image1.jpeg" x="0.17" y="0" width="959.67" height="720" preserveAspectRatio="none" id="master-master_01-20482-1" data-pptx-layer="master" data-pptx-editable="false" data-pptx-native-ref="r6" />
+<path d="M 8.33 15 L 308.33 15 L 308.33 90 L 8.33 90 Z" fill="#FFFFFF" stroke-width="1" stroke-linecap="butt" stroke="#FFFFFF" stroke-linejoin="round" id="master-master_01-17-1" data-pptx-layer="master" data-pptx-editable="false" data-pptx-native-ref="r31" />
+
+
+<image href="../images/image2.jpeg" x="33.97" y="15.16" width="241.92" height="72.68" preserveAspectRatio="none" id="master-master_01-1026-1" data-pptx-layer="master" data-pptx-editable="false" data-pptx-native-ref="r15" />
+<path d="M 0.75 695 L 959.5 695 L 959.5 719.25 L 0.75 719.25 Z" fill="url(#m-master_01-ggrad1)" stroke-width="1" stroke-linecap="butt" stroke="none" stroke-linejoin="round" id="master-master_01-6-1" data-pptx-layer="master" data-pptx-editable="false" data-pptx-native-ref="r8" />
+
+
+<image href="../images/image3.png" x="0.5" y="694.5" width="959" height="25" preserveAspectRatio="none" id="master-master_01-7-1" data-pptx-layer="master" data-pptx-editable="false" data-pptx-native-ref="r7" />
+<text x="792" y="711.23" text-anchor="start" xml:space="preserve" font-family="&quot;楷体&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" font-weight="bold" id="master-master_01-10-1" data-pptx-layer="master" data-pptx-editable="false" data-pptx-native-ref="r30"><tspan fill="#000000" font-size="18.67" font-weight="bold">长大 长新</tspan></text>
+<image href="../images/image4.jpeg" x="-0.32" y="0" width="960" height="720" preserveAspectRatio="none" id="layout-layout_13-17-1" data-pptx-layer="layout" data-pptx-editable="false" data-pptx-native-ref="r1" />
+<path d="M -0.32 0 L 959.68 0 L 959.68 720 L -0.32 720 Z" fill="url(#l-layout_13-ggrad1)" stroke-width="1.33333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter" id="layout-layout_13-18-1" data-pptx-layer="layout" data-pptx-editable="false" data-pptx-native-ref="r2" />
+
+
+<image href="../images/image5.png" x="-0.32" y="0" width="960" height="720" preserveAspectRatio="none" opacity="0.5" id="layout-layout_13-20-1" data-pptx-layer="layout" data-pptx-editable="false" data-pptx-native-ref="r1" />
+<path d="M 0 231.81 L 960 231.81 L 960 487.19 L 0 487.19 Z" fill="#FFFFFF" stroke="none" stroke-width="1" id="layout-layout_13-6-1" data-pptx-layer="layout" data-pptx-editable="false" data-pptx-native-ref="r4" />
+
+
+<path d="M 0 242.4 L 960 242.4 L 960 476.6 L 0 476.6 Z" fill="#261270" stroke="none" stroke-width="1" id="layout-layout_13-7-1" data-pptx-layer="layout" data-pptx-editable="false" data-pptx-native-ref="r5" />
+
+
+<svg x="774.75" y="32.08" width="160.5" height="61.45" viewBox="0 0.35569 1 0.28716" preserveAspectRatio="none" id="layout-layout_13-10-1" data-pptx-layer="layout" data-pptx-editable="false" data-pptx-native-ref="r29"><image href="../images/image6.png" x="0" y="0" width="1" height="1" preserveAspectRatio="none" /></svg>
+<path d="M 208.5 186.14 L 751.5 186.14 L 751.5 186.94 L 752.95 187.04 C 818.51 195.92 869.67 269.74 869.67 359.5 C 869.67 449.26 818.51 523.08 752.95 531.96 L 751.5 532.06 L 751.5 532.86 L 739.65 532.86 L 219.89 532.86 L 208.5 532.86 L 208.5 532.09 L 206.6 531.96 C 141.04 523.08 89.88 449.26 89.88 359.5 C 89.88 269.74 141.04 195.92 206.6 187.04 L 208.5 186.91 Z" fill="#9F2936" stroke="none" stroke-width="1" filter="url(#l-layout_13-layered_layout_13_slideLayout13_ill01_fx1)" id="layout-layout_13-22-1" data-pptx-layer="layout" data-pptx-editable="false" data-pptx-native-ref="r0" />
+
+<path d="M 415.5 382.96 L 544.5 382.96 L 544.5 387.76 L 415.5 387.76 Z" stroke="none" fill="#F07F09" stroke-width="1" id="layout-layout_13-14-1" data-pptx-layer="layout" data-pptx-editable="false" data-pptx-native-ref="r18" />
+
+
+<g id="slot-layout_13-16" data-pptx-placeholder="body" data-pptx-bounds="0 262.3 960 126.02" data-pptx-idx="10"><text x="480" y="335.1" text-anchor="middle" xml:space="preserve" font-family="&quot;华文中宋&quot;, sans-serif" font-size="80" fill="#F07F09" data-pptx-carrier="true" data-pptx-native-ref="r3" />
+</g><g id="slot-layout_13-19" data-pptx-placeholder="body" data-pptx-bounds="168 406.99 624.75 50.41" data-pptx-idx="12"><text x="480.38" y="432.19" text-anchor="middle" xml:space="preserve" font-family="sans-serif" font-size="24" fill="#FFFFFF" data-pptx-carrier="true" data-pptx-native-ref="r10" />
+</g></svg>
