@@ -19,17 +19,43 @@ exports/              # 审查用 PPTX(派生证据,不参与模版应用;git �
 
 ## 使用方式
 
-**方式一:直接使用(推荐)** — 无需安装。在 ppt-master 对话中把本仓库路径作为显式 workspace root 传给 Generate PPTX Step 3:
+**方式零:一行命令自动安装(推荐)** — 下载归档、安装、注册全自动完成,无需先克隆仓库:
+
+```bash
+# macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/<USER>/<REPO>/main/install-remote.sh | sh
+```
+
+```powershell
+# Windows(PowerShell)
+powershell -c "irm https://raw.githubusercontent.com/<USER>/<REPO>/main/install-remote.ps1 | iex"
+```
+
+默认安装到 pi 技能标准位置(`~/.pi/agent/git/github.com/hugohe3/ppt-master`)。可用环境变量覆盖:
+
+```bash
+# 指定 ppt-master 位置 / 仓库地址 / 分支
+PPT_MASTER=/path/to/ppt-master curl -fsSL .../install-remote.sh | sh
+```
+
+```powershell
+# Windows 上先设变量再执行
+powershell -c "$env:PPT_MASTER='C:\path\to\ppt-master'; irm .../install-remote.ps1 | iex"
+```
+
+> 谨慎用户可先下载脚本审阅再执行;或改用方式一/二。发布仓库后请将本文档中的 `<USER>/<REPO>` 替换为实际地址。
+
+**方式一:直接使用(免安装)** — 在 ppt-master 对话中把本仓库路径作为显式 workspace root 传给 Generate PPTX Step 3:
 
 ```text
 使用模版 <本仓库路径> 生成一份关于……的汇报 PPT
 ```
 
-**方式二:安装到本机 ppt-master 模版库** — 运行安装脚本(Windows / Linux / macOS 均可),脚本会:
+**方式二:本地安装脚本** — 已克隆仓库时使用(Windows / Linux / macOS 均可),脚本会:
 
 1. 把 `templates/` 与 `images/` 拷贝到 `<ppt-master>/skills/ppt-master/templates/decks/yangtzeu_report/`
 2. 幂等地为 `<ppt-master>/skills/ppt-master/scripts/config.py` 打上 `ppt43_960` 画布补丁(见下)
-3. 运行 `register_template.py yangtzeu_report --kind deck` 注册到全局发现索引
+3. 确保 `pyyaml` 可用(缺失时尝试自动安装),然后运行 `register_template.py yangtzeu_report --kind deck` 注册到全局发现索引
 
 ```bash
 # macOS / Linux

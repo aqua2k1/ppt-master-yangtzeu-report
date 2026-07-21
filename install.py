@@ -80,6 +80,29 @@ def apply_canvas_patch(config_py: Path) -> None:
     print("[2/3] Applied ppt43_960 canvas patch to config.py")
 
 
+def ensure_pyyaml() -> None:
+    """register_template.py 需要 PyYAML;缺失时尽力自动安装(仅影响注册步骤)。"""
+    try:
+        import yaml  # noqa: F401
+        return
+    except ImportError:
+        pass
+    print("[*] PyYAML not found; trying to install it for the registration step...")
+    for extra in ([], ["--user"]):
+        result = subprocess.run(
+            [sys.executable, "-m", "pip", "install", *extra, "pyyaml"],
+            capture_output=True,
+        )
+        if result.returncode == 0:
+            return
+    print(
+        "[!] Could not auto-install PyYAML. If registration fails, install it "
+        "manually (e.g. pip install pyyaml / uv pip install pyyaml) and rerun "
+        "register_template.py.",
+        file=sys.stderr,
+    )
+
+
 def main() -> None:
     if len(sys.argv) != 2:
         fail(f"Usage: {Path(sys.argv[0]).name} /path/to/ppt-master")
@@ -96,6 +119,7 @@ def main() -> None:
 
     copy_workspace(src_dir, skill_dir / "templates" / "decks" / TEMPLATE_ID)
     apply_canvas_patch(config_py)
+    ensure_pyyaml()
 
     registrar = skill_dir / "scripts" / "register_template.py"
     subprocess.run(
