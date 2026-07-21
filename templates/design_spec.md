@@ -5,10 +5,10 @@ category: brand
 summary: 长江大学学术汇报通用模版,服务学术会议汇报、课堂汇报与组会汇报,帮助汇报人清晰呈现研究工作与计划
 keywords: [高校, 学术汇报, 会议, 课堂, 组会]
 primary_color: "#F07F09"
-canvas_format: ppt43_960
-canvas_width: 960
-canvas_height: 720
-canvas_viewbox: "0 0 960 720"
+canvas_format: ppt43
+canvas_width: 1024
+canvas_height: 768
+canvas_viewbox: "0 0 1024 768"
 source_canvas_width: 960
 source_canvas_height: 720
 source_viewbox: "0 0 960 720"
