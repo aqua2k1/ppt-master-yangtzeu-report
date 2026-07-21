@@ -25,15 +25,24 @@ exports/              # 审查用 PPTX(派生证据,不参与模版应用;git �
 使用模版 <本仓库路径> 生成一份关于……的汇报 PPT
 ```
 
-**方式二:安装到本机 ppt-master 模版库** — 运行 `install.sh`,脚本会:
+**方式二:安装到本机 ppt-master 模版库** — 运行安装脚本(Windows / Linux / macOS 均可),脚本会:
 
 1. 把 `templates/` 与 `images/` 拷贝到 `<ppt-master>/skills/ppt-master/templates/decks/yangtzeu_report/`
 2. 幂等地为 `<ppt-master>/skills/ppt-master/scripts/config.py` 打上 `ppt43_960` 画布补丁(见下)
 3. 运行 `register_template.py yangtzeu_report --kind deck` 注册到全局发现索引
 
 ```bash
+# macOS / Linux
 ./install.sh /path/to/ppt-master
+
+# Windows(CMD / PowerShell)
+install.bat C:\path\to\ppt-master
+
+# 三平台通用(直接调用跨平台实现;Windows 上也可用 py -3 或 python)
+python3 install.py /path/to/ppt-master
 ```
+
+> Windows 上也可以使用 Git Bash / WSL 运行 `install.sh`。三个入口调用同一个 `install.py`,行为完全一致。
 
 ## ppt43_960 画布补丁说明
 
