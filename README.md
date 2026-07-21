@@ -23,12 +23,12 @@ exports/              # 审查用 PPTX(派生证据,不参与模版应用;git �
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/<USER>/<REPO>/main/install-remote.sh | sh
+curl -fsSL https://raw.githubusercontent.com/aqua2k1/ppt-master-yangtzeu-report/main/install-remote.sh | sh
 ```
 
 ```powershell
 # Windows(PowerShell)
-powershell -c "irm https://raw.githubusercontent.com/<USER>/<REPO>/main/install-remote.ps1 | iex"
+powershell -c "irm https://raw.githubusercontent.com/aqua2k1/ppt-master-yangtzeu-report/main/install-remote.ps1 | iex"
 ```
 
 默认安装到 pi 技能标准位置(`~/.pi/agent/git/github.com/hugohe3/ppt-master`)。可用环境变量覆盖:
@@ -43,7 +43,7 @@ PPT_MASTER=/path/to/ppt-master curl -fsSL .../install-remote.sh | sh
 powershell -c "$env:PPT_MASTER='C:\path\to\ppt-master'; irm .../install-remote.ps1 | iex"
 ```
 
-> 谨慎用户可先下载脚本审阅再执行;或改用方式一/二。发布仓库后请将本文档中的 `<USER>/<REPO>` 替换为实际地址。
+> 谨慎用户可先下载脚本审阅再执行;或改用方式一/二。仓库地址:https://github.com/aqua2k1/ppt-master-yangtzeu-report
 
 **方式一:直接使用(免安装)** — 在 ppt-master 对话中把本仓库路径作为显式 workspace root 传给 Generate PPTX Step 3:
 

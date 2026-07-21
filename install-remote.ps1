@@ -1,15 +1,15 @@
 # install-remote.ps1 — yangtzeu_report 模版一行安装引导(Windows PowerShell)。
 #
-#   powershell -c "irm https://raw.githubusercontent.com/<USER>/<REPO>/main/install-remote.ps1 | iex"
+#   powershell -c "irm https://raw.githubusercontent.com/aqua2k1/ppt-master-yangtzeu-report/main/install-remote.ps1 | iex"
 #
 # 行为:下载模版仓库归档 -> 解压到临时目录 -> 运行 install.py -> 自动清理。
 # 环境变量(均可选,执行前设置):
 #   $env:PPT_MASTER          ppt-master 仓库路径(默认:pi 技能标准位置 $HOME\.pi\agent\git\github.com\hugohe3\ppt-master)
-#   $env:YANGTZEU_REPO_URL   仓库地址(https://github.com/<USER>/<REPO>)或完整的 .zip 归档地址
+#   $env:YANGTZEU_REPO_URL   仓库地址(https://github.com/aqua2k1/ppt-master-yangtzeu-report)或完整的 .zip 归档地址
 #   $env:YANGTZEU_REPO_REF   分支/标签(默认:main)
 $ErrorActionPreference = 'Stop'
 
-$RepoUrl   = if ($env:YANGTZEU_REPO_URL) { $env:YANGTZEU_REPO_URL } else { 'https://github.com/<USER>/<REPO>' }
+$RepoUrl   = if ($env:YANGTZEU_REPO_URL) { $env:YANGTZEU_REPO_URL } else { 'https://github.com/aqua2k1/ppt-master-yangtzeu-report' }
 $Ref       = if ($env:YANGTZEU_REPO_REF) { $env:YANGTZEU_REPO_REF } else { 'main' }
 $PptMaster = if ($env:PPT_MASTER)        { $env:PPT_MASTER }        else { Join-Path $HOME '.pi\agent\git\github.com\hugohe3\ppt-master' }
 

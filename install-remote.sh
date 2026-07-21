@@ -1,16 +1,16 @@
 #!/bin/sh
 # install-remote.sh — yangtzeu_report 模版一行安装引导(macOS / Linux)。
 #
-#   curl -fsSL https://raw.githubusercontent.com/<USER>/<REPO>/main/install-remote.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/aqua2k1/ppt-master-yangtzeu-report/main/install-remote.sh | sh
 #
 # 行为:下载模版仓库归档 -> 解压到临时目录 -> 运行 install.py -> 自动清理。
 # 环境变量(均可选):
 #   PPT_MASTER          ppt-master 仓库路径(默认:pi 技能标准位置 ~/.pi/agent/git/github.com/hugohe3/ppt-master)
-#   YANGTZEU_REPO_URL   仓库地址(https://github.com/<USER>/<REPO>)或完整的 .tar.gz 归档地址
+#   YANGTZEU_REPO_URL   仓库地址(https://github.com/aqua2k1/ppt-master-yangtzeu-report)或完整的 .tar.gz 归档地址
 #   YANGTZEU_REPO_REF   分支/标签(默认:main)
 set -eu
 
-REPO_URL="${YANGTZEU_REPO_URL:-https://github.com/<USER>/<REPO>}"
+REPO_URL="${YANGTZEU_REPO_URL:-https://github.com/aqua2k1/ppt-master-yangtzeu-report}"
 REF="${YANGTZEU_REPO_REF:-main}"
 PPT_MASTER="${PPT_MASTER:-$HOME/.pi/agent/git/github.com/hugohe3/ppt-master}"
 
