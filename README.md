@@ -14,7 +14,47 @@
 ```text
 templates/            # design_spec.md + 14 个 SVG 原型/版式定义
 images/               # 母版与版式引用的位图资产（校徽、背景、渐变条等）
+previews/             # 14 个版式的 PNG 预览图（README 展示用）
 ```
+
+## 版式展示
+
+> 封面、章节、结尾页等为原生空占位符（标题、正文待使用者填写），未填充时呈现为母版框架外观。
+
+### 页面原型（5 页）
+
+<table>
+  <tr>
+    <td align="center"><img src="previews/001_cover.png" width="280"><br><b>封面</b><br><sub>标题幻灯片</sub></td>
+    <td align="center"><img src="previews/002_content.png" width="280"><br><b>内容页</b><br><sub>空白版式</sub></td>
+    <td align="center"><img src="previews/003_chapter.png" width="280"><br><b>章节页</b><br><sub>节标题</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="previews/004_content.png" width="280"><br><b>内容页</b><br><sub>空白版式</sub></td>
+    <td align="center"><img src="previews/005_ending.png" width="280"><br><b>致谢结尾页</b><br><sub>2_自定义版式</sub></td>
+    <td></td>
+  </tr>
+</table>
+
+### 版式定义（9 个，definition-only）
+
+<table>
+  <tr>
+    <td align="center"><img src="previews/layout_layout_02.png" width="280"><br><b>标题和内容</b></td>
+    <td align="center"><img src="previews/layout_layout_04.png" width="280"><br><b>两栏内容</b></td>
+    <td align="center"><img src="previews/layout_layout_05.png" width="280"><br><b>比较</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="previews/layout_layout_06.png" width="280"><br><b>仅标题</b></td>
+    <td align="center"><img src="previews/layout_layout_08.png" width="280"><br><b>内容与标题</b></td>
+    <td align="center"><img src="previews/layout_layout_09.png" width="280"><br><b>图片与标题</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="previews/layout_layout_10.png" width="280"><br><b>标题和竖排文字</b></td>
+    <td align="center"><img src="previews/layout_layout_11.png" width="280"><br><b>垂直排列标题与文本</b></td>
+    <td align="center"><img src="previews/layout_layout_12.png" width="280"><br><b>自定义版式</b></td>
+  </tr>
+</table>
 
 ## 使用方式
 
