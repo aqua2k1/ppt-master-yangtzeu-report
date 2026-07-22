@@ -7,7 +7,7 @@
 ```text
 ppt-master-yangtzeu-report/
 ├── decks/                     # 独立 Deck 模板（每个子目录是一个 workspace root）
-│   ├── yangtzeu_report/       # 长江大学通用学术汇报（4:3 红橙）
+│   ├── yangtzeu-report/       # 长江大学通用学术汇报（4:3 红橙）
 │   └── yangtzeu-standard/     # 长江大学理工类院系标准蓝色（16:9）
 ├── brands/                    # 预留：共享品牌身份
 ├── layouts/                   # 预留：共享版式结构
@@ -40,7 +40,7 @@ AI 会自动定位 `templates/decks/` 目录、clone 仓库并完成注册，之
 
 ---
 
-## 模板一：yangtzeu_report — 长江大学通用学术汇报
+## 模板一：yangtzeu-report — 长江大学通用学术汇报
 
 | 项目 | 内容 |
 |---|---|
@@ -48,19 +48,19 @@ AI 会自动定位 `templates/decks/` 目录、clone 仓库并完成注册，之
 | 画布 | 1024×768 (4:3, `ppt43`) |
 | 主色 | `#F07F09`（橙）+ `#9F2936`（红） |
 | 结构 | 1 Master, 13 Layouts, 5 页原型 + 9 个 definition-only 版式 |
-| 路径 | `decks/yangtzeu_report/` |
+| 路径 | `decks/yangtzeu-report/` |
 
 ### 页面原型（5 页）
 
 <table>
   <tr>
-    <td align="center"><img src="decks/yangtzeu_report/previews/001_cover.png" width="320"><br><b>封面</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/002_content.png" width="320"><br><b>内容页</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/003_chapter.png" width="320"><br><b>章节页</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/001_cover.png" width="320"><br><b>封面</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/002_content.png" width="320"><br><b>内容页</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/003_chapter.png" width="320"><br><b>章节页</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="decks/yangtzeu_report/previews/004_content.png" width="320"><br><b>内容页</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/005_ending.png" width="320"><br><b>致谢结尾页</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/004_content.png" width="320"><br><b>内容页</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/005_ending.png" width="320"><br><b>致谢结尾页</b></td>
     <td></td>
   </tr>
 </table>
@@ -69,19 +69,19 @@ AI 会自动定位 `templates/decks/` 目录、clone 仓库并完成注册，之
 
 <table>
   <tr>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_02.png" width="280"><br><b>标题和内容</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_04.png" width="280"><br><b>两栏内容</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_05.png" width="280"><br><b>比较</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_02.png" width="280"><br><b>标题和内容</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_04.png" width="280"><br><b>两栏内容</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_05.png" width="280"><br><b>比较</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_06.png" width="280"><br><b>仅标题</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_08.png" width="280"><br><b>内容与标题</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_09.png" width="280"><br><b>图片与标题</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_06.png" width="280"><br><b>仅标题</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_08.png" width="280"><br><b>内容与标题</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_09.png" width="280"><br><b>图片与标题</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_10.png" width="280"><br><b>标题和竖排文字</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_11.png" width="280"><br><b>垂直排列标题与文本</b></td>
-    <td align="center"><img src="decks/yangtzeu_report/previews/layout_layout_12.png" width="280"><br><b>自定义版式</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_10.png" width="280"><br><b>标题和竖排文字</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_11.png" width="280"><br><b>垂直排列标题与文本</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/layout_layout_12.png" width="280"><br><b>自定义版式</b></td>
   </tr>
 </table>
 
@@ -146,4 +146,4 @@ AI 会自动定位 `templates/decks/` 目录、clone 仓库并完成注册，之
 
 ## 授权与使用注意
 
-`decks/yangtzeu_report/` 包含长江大学校徽图案与"长大 长新"校训文字。**仅限长江大学校内学习、教学与学术交流使用**；请勿用于商业用途或暗示学校官方背书。
+`decks/yangtzeu-report/` 包含长江大学校徽图案与"长大 长新"校训文字。**仅限长江大学校内学习、教学与学术交流使用**；请勿用于商业用途或暗示学校官方背书。

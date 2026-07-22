@@ -1,5 +1,5 @@
 ---
-deck_id: yangtzeu_report
+deck_id: yangtzeu-report
 kind: deck
 category: brand
 summary: 长江大学学术汇报通用模版,服务学术会议汇报、课堂汇报与组会汇报,帮助汇报人清晰呈现研究工作与计划
