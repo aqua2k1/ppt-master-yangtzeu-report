@@ -13,7 +13,7 @@ source_canvas_width: 1280
 source_canvas_height: 720
 source_viewbox: "0 0 1280 720"
 replication_mode: fidelity
-native_structure_mode: structured
+native_structure_mode: flat
 page_count: 13
 placeholders:
   08a_content_cards: ["{{SECTION_TITLE}}", "{{CARD_CONTENT}}"]
@@ -37,22 +37,54 @@ placeholders:
 
 ## II. Color Scheme
 
-| 角色 | HEX | 说明 |
-|---|---|---|
-| Primary | `#1F4E79` | 深蓝主色：顶部饰带、装饰块、形状填充、标题底色 |
-| Accent | `#5B9BD5` | 中蓝辅色：三角形装饰、浅色面板、次要图形 |
-| Accent | `#0369A3` | 主题蓝(源自PPTX accent2)：链接色、备选强调 |
-| Light bg | `#F4F5F7` | 浅灰面板底色：卡片、内容区背景 |
-| Background | `#FFFFFF` | 页面主底色 |
-| Text-dark | `#3B3838` | 正文深色文字 |
-| Text-light | `#D0CECE` | 深色背景上的浅色正文 |
-| Text-light-alt | `#F2F2F2` | 深色背景上的浅色标题文字 |
+| 角色 | HEX | spec_lock key | 说明 |
+|---|---|---|---|
+| Primary | `#1F4E79` | `primary` | 深蓝主色：顶部饰带、装饰块、形状填充、标题底色 |
+| Accent | `#5B9BD5` | `accent` | 中蓝辅色：三角形装饰、浅色面板、次要图形 |
+| Accent-alt | `#0369A3` | `accent_alt` | 主题蓝(源自PPTX accent2)：链接色、备选强调 |
+| Light bg | `#F4F5F7` | `light_bg` | 浅灰面板底色：卡片、内容区背景 |
+| Background | `#FFFFFF` | `background` | 页面主底色 |
+| Text-dark | `#3B3838` | `text_dark` | 正文深色文字 |
+| Text-title | `#404040` | `text_title` | 标题深色文字（与 #3B3838 接近，用于标题强调） |
+| Text-light | `#D0CECE` | `text_light` | 深色背景上的浅色正文 |
+| Text-light-alt | `#F2F2F2` | `text_light_alt` | 深色背景上的浅色标题文字 |
+| Text-black | `#000000` | `text_black` | 目录/编号页的纯黑强调文字（`02_toc`, `06_content_image_double`, `07_content_numbered`） |
+
+> **spec_lock.md 用法**：在 `## colors` 段中声明以上所有颜色。key 列给出了推荐的 spec_lock key 名称。
 
 ## III. Typography
 
-- 标题/正文字体栈：`"微软雅黑", "Microsoft YaHei", sans-serif`
+- 字体栈：`"微软雅黑", "Microsoft YaHei", sans-serif`
 - 源主题字体为 Arial/等线；模板统一采用微软雅黑以获得一致的中文显示效果
-- 正文字号基线约 18.67px(16:9 画布)
+
+### 字号角色表（模板 SVG 中全部使用的 font-size）
+
+| 角色 | 字号(px) | spec_lock key | 使用场景与模板页 |
+|---|---|---|---|
+| Body | 18.67 | `body` | 正文段落、卡片描述文字（全部正文页） |
+| Annotation | 26.67 | `annotation` | 图片标签、目录项副标题（`02_toc`, `06_content_image_double`） |
+| Subtitle | 32 | `subtitle` | 目录主标题、章节副标题（`02_toc`, `03_chapter`） |
+| Section-title | 37.33 | `section_title` | 封面副标题、TOC 章节编号（`01_cover`, `02_toc`） |
+| Cover-title | 48 | `cover_title` | 封面主标题（`01_cover`） |
+| Page-title | 53.33 | `page_title` | 正文页大标题（`04_content_text` 等） |
+| Number-display | 80 | `number_display` | 大号数字（`07_content_numbered` 列表编号） |
+| Chapter-number | 96 | `chapter_number` | 章节过渡页超大字（`03_chapter`） |
+
+> **spec_lock.md 用法**：在 `## typography` 段中声明以上所有字号角色。key 列给出了推荐的 spec_lock key 名称。直接复制为 `- <key>: <字号>` 格式即可。
+>
+> 示例：
+> ```markdown
+> ## typography
+> - font_family: "微软雅黑", "Microsoft YaHei", sans-serif
+> - body: 18.67
+> - annotation: 26.67
+> - subtitle: 32
+> - section_title: 37.33
+> - cover_title: 48
+> - page_title: 53.33
+> - number_display: 80
+> - chapter_number: 96
+> ```
 
 ## IV. Signature Design Elements
 
