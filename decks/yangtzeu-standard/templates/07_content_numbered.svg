@@ -2,38 +2,38 @@
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" id="master-bg" data-pptx-layer="master" data-pptx-editable="false" />
   <rect x="0" y="0" width="1280" height="9.5" fill="#1F4E79" id="master-topbar" data-pptx-layer="master" data-pptx-editable="false" />
   <image href="../images/image4.png" x="17.84" y="19.01" width="131.98" height="42.67" preserveAspectRatio="none" id="master-logo" data-pptx-layer="master" data-pptx-editable="false" />
-  <g id="slot-numbered-1" data-pptx-placeholder="picture" data-pptx-bounds="-1 107 1281 334">
-    <image x="-1" y="107" width="1281" height="334" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  <g id="slot-numbered-1" data-pptx-placeholder="picture" data-pptx-idx="1" data-pptx-bounds="-1 107 1281 334">
+    <image x="-1" y="107" width="1281" height="334" href="../images/image10.png" preserveAspectRatio="none" data-pptx-carrier="true" />
   </g>
   <g id="slot-numbered-2" data-pptx-placeholder="title" data-pptx-bounds="86 32 170 55">
     <text x="95.28" y="68.81" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="37.33" fill="#3B3838" font-weight="bold" data-pptx-carrier="true">{{PAGE_TITLE}}</text>
   </g>
   <rect x="98" y="356" width="170" height="170" fill="#1F4E79" id="layout-numbered-sq1" data-pptx-layer="layout" data-pptx-editable="false" />
-  <g id="slot-numbered-num1" data-pptx-placeholder="body" data-pptx-bounds="140 378 87 125">
+  <g id="slot-numbered-num1" data-pptx-placeholder="body" data-pptx-idx="2" data-pptx-bounds="140 378 87 125">
     <text x="140" y="378" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="96" fill="#FFFFFF" font-weight="bold" data-pptx-carrier="true">{{NUM_1}}</text>
   </g>
   <rect x="411" y="356" width="170" height="170" fill="#5B9BD5" id="layout-numbered-sq2" data-pptx-layer="layout" data-pptx-editable="false" />
-  <g id="slot-numbered-num2" data-pptx-placeholder="body" data-pptx-bounds="453 378 87 125">
+  <g id="slot-numbered-num2" data-pptx-placeholder="body" data-pptx-idx="3" data-pptx-bounds="453 378 87 125">
     <text x="453" y="378" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="96" fill="#FFFFFF" font-weight="bold" data-pptx-carrier="true">{{NUM_2}}</text>
   </g>
   <rect x="718" y="356" width="170" height="170" fill="#1F4E79" id="layout-numbered-sq3" data-pptx-layer="layout" data-pptx-editable="false" />
-  <g id="slot-numbered-num3" data-pptx-placeholder="body" data-pptx-bounds="760 378 87 125">
+  <g id="slot-numbered-num3" data-pptx-placeholder="body" data-pptx-idx="4" data-pptx-bounds="760 378 87 125">
     <text x="760" y="378" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="96" fill="#FFFFFF" font-weight="bold" data-pptx-carrier="true">{{NUM_3}}</text>
   </g>
   <rect x="1031" y="356" width="170" height="170" fill="#5B9BD5" id="layout-numbered-sq4" data-pptx-layer="layout" data-pptx-editable="false" />
-  <g id="slot-numbered-num4" data-pptx-placeholder="body" data-pptx-bounds="1073 378 87 125">
+  <g id="slot-numbered-num4" data-pptx-placeholder="body" data-pptx-idx="5" data-pptx-bounds="1073 378 87 125">
     <text x="1072" y="378" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="96" fill="#FFFFFF" font-weight="bold" data-pptx-carrier="true">{{NUM_4}}</text>
   </g>
-  <g id="slot-numbered-item1" data-pptx-placeholder="body" data-pptx-bounds="86 545 214 100">
+  <g id="slot-numbered-item1" data-pptx-placeholder="body" data-pptx-idx="6" data-pptx-bounds="86 545 214 100">
     <text x="95.28" y="565.6" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" data-pptx-carrier="true">{{ITEM_1}}</text>
   </g>
-  <g id="slot-numbered-item2" data-pptx-placeholder="body" data-pptx-bounds="399 545 214 100">
+  <g id="slot-numbered-item2" data-pptx-placeholder="body" data-pptx-idx="7" data-pptx-bounds="399 545 214 100">
     <text x="408.11" y="565.6" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" data-pptx-carrier="true">{{ITEM_2}}</text>
   </g>
-  <g id="slot-numbered-item3" data-pptx-placeholder="body" data-pptx-bounds="705 545 214 100">
+  <g id="slot-numbered-item3" data-pptx-placeholder="body" data-pptx-idx="8" data-pptx-bounds="705 545 214 100">
     <text x="714.94" y="565.6" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" data-pptx-carrier="true">{{ITEM_3}}</text>
   </g>
-  <g id="slot-numbered-item4" data-pptx-placeholder="body" data-pptx-bounds="1018 545 214 100">
+  <g id="slot-numbered-item4" data-pptx-placeholder="body" data-pptx-idx="9" data-pptx-bounds="1018 545 214 100">
     <text x="1027.77" y="565.6" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#000000" data-pptx-carrier="true">{{ITEM_4}}</text>
   </g>
 </svg>

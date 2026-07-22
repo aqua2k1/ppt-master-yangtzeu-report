@@ -88,7 +88,21 @@ placeholders:
 
 | 文件 | 用途 |
 |---|---|
-| `images/image4.png` | 校徽/院系标识(左上角，母版层) |
+| `images/image4.png` | 校徽/院系标识(左上角，母版层；另作 toc/章节/结束页右上角标识) |
+| `images/image1.png` | 封面全幅背景图(`01_cover` slot-cover-3) |
+| `images/image3.jpeg` | 目录页右侧配图(`02_toc` slot-toc-3) |
+| `images/image5.jpeg` | 正文双栏页底部横幅图(`04_content_text` slot-content_text-3) |
+| `images/image6.jpeg` | 章节过渡页右半幅图(`03_chapter` slot-chapter-3) |
+| `images/image7.jpeg` | 正文大图页全幅背景(`05_content_image_large` slot-image_large-1) |
+| `images/image8.jpeg` | 正文双图页上图(`06_content_image_double` slot-image_double-1) |
+| `images/image9.jpeg` | 正文双图页下图(`06_content_image_double` slot-image_double-2) |
+| `images/image10.png` | 正文编号页顶部横幅图(`07_content_numbered` slot-numbered-1) |
+| `images/image11.jpeg` | 方形图片集右图(`09a_content_images` slot-images-2) |
+| `images/image12.jpeg` | 方形图片集左图(`09a_content_images` slot-images-1) |
+| `images/image13.png` | 竖形图片集右图(`09b_content_images` slot-images-pic3) |
+| `images/image14.png` | 竖形图片集中图(`09b_content_images` slot-images-pic2) |
+| `images/image15.png` | 竖形图片集左图(`09b_content_images` slot-images-pic1) |
+| `images/image16.jpeg` | 结束页右侧配图(`10_ending` slot-ending-3) |
 | `icons/imported/layered_slide_04_ill01.svg` | 章节页装饰矢量(三角形组合) |
 | `icons/imported/layered_slide_06_ill01.svg` | 双图页装饰矢量 |
 | `icons/imported/layered_slide_08_ill01~04.svg` | 要点卡片页图标(4个) |

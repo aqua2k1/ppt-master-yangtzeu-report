@@ -11,10 +11,10 @@
   <g id="slot-chapter-1" data-pptx-placeholder="title" data-pptx-bounds="331.01 155.15 170.49 54.69">
     <text x="340.46" y="191.8" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="37.33" fill="#F2F2F2" font-weight="bold" data-pptx-carrier="true">{{CHAPTER_TITLE}}</text>
   </g>
-  <g id="slot-chapter-2" data-pptx-placeholder="body" data-pptx-bounds="276.32 231.69 310.53 99.51">
+  <g id="slot-chapter-2" data-pptx-placeholder="body" data-pptx-idx="1" data-pptx-bounds="276.32 231.69 310.53 99.51">
     <text x="285.77" y="252.47" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#D0CECE" data-pptx-carrier="true">{{CHAPTER_DESC}}</text>
   </g>
-  <g id="slot-chapter-3" data-pptx-placeholder="picture" data-pptx-bounds="534.5 0 745.51 720">
-    <image x="534.5" y="0" width="745.51" height="720" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  <g id="slot-chapter-3" data-pptx-placeholder="picture" data-pptx-idx="2" data-pptx-bounds="534.5 0 745.51 720">
+    <image x="534.5" y="0" width="745.51" height="720" href="../images/image6.jpeg" preserveAspectRatio="none" data-pptx-carrier="true" />
   </g>
 </svg>

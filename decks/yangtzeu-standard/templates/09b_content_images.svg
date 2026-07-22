@@ -7,25 +7,25 @@
   <g id="slot-images-1" data-pptx-placeholder="title" data-pptx-bounds="564 71 164 48">
     <text x="575" y="103" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="26.67" fill="#1F4E79" font-weight="bold" data-pptx-carrier="true">{{PAGE_TITLE}}</text>
   </g>
-  <g id="slot-images-pic1" data-pptx-placeholder="picture" data-pptx-bounds="133 259 246 727">
-    <image x="133" y="259" width="246" height="727" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  <g id="slot-images-pic1" data-pptx-placeholder="picture" data-pptx-idx="1" data-pptx-bounds="133 259 246 727">
+    <image x="133" y="259" width="246" height="727" href="../images/image15.png" preserveAspectRatio="none" data-pptx-carrier="true" />
   </g>
-  <g id="slot-images-pic2" data-pptx-placeholder="picture" data-pptx-bounds="522 257 246 727">
-    <image x="522" y="257" width="246" height="727" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  <g id="slot-images-pic2" data-pptx-placeholder="picture" data-pptx-idx="2" data-pptx-bounds="522 257 246 727">
+    <image x="522" y="257" width="246" height="727" href="../images/image14.png" preserveAspectRatio="none" data-pptx-carrier="true" />
   </g>
-  <g id="slot-images-pic3" data-pptx-placeholder="picture" data-pptx-bounds="911 259 246 727">
-    <image x="911" y="259" width="246" height="727" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  <g id="slot-images-pic3" data-pptx-placeholder="picture" data-pptx-idx="3" data-pptx-bounds="911 259 246 727">
+    <image x="911" y="259" width="246" height="727" href="../images/image13.png" preserveAspectRatio="none" data-pptx-carrier="true" />
   </g>
   <rect x="160" y="234" width="193" height="52" rx="8" fill="#1F4E79" id="layout-images-tbar1" data-pptx-layer="layout" data-pptx-editable="false" />
   <rect x="550" y="234" width="193" height="52" rx="8" fill="#1F4E79" id="layout-images-tbar2" data-pptx-layer="layout" data-pptx-editable="false" />
   <rect x="938" y="234" width="194" height="52" rx="8" fill="#1F4E79" id="layout-images-tbar3" data-pptx-layer="layout" data-pptx-editable="false" />
-  <g id="slot-images-title1" data-pptx-placeholder="title" data-pptx-bounds="186 237 141 42">
+  <g id="slot-images-title1" data-pptx-placeholder="body" data-pptx-idx="4" data-pptx-bounds="186 237 141 42">
     <text x="195.45" y="267" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold" data-pptx-carrier="true">{{CAPTION_1}}</text>
   </g>
-  <g id="slot-images-title2" data-pptx-placeholder="title" data-pptx-bounds="575 237 141 42">
+  <g id="slot-images-title2" data-pptx-placeholder="body" data-pptx-idx="5" data-pptx-bounds="575 237 141 42">
     <text x="584.45" y="267" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold" data-pptx-carrier="true">{{CAPTION_2}}</text>
   </g>
-  <g id="slot-images-title3" data-pptx-placeholder="title" data-pptx-bounds="970 237 141 42">
+  <g id="slot-images-title3" data-pptx-placeholder="body" data-pptx-idx="6" data-pptx-bounds="970 237 141 42">
     <text x="979.45" y="267" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold" data-pptx-carrier="true">{{CAPTION_3}}</text>
   </g>
 </svg>

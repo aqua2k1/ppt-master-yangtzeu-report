@@ -7,7 +7,7 @@
   <g id="slot-cards-1" data-pptx-placeholder="title" data-pptx-bounds="597.51 71.17 164.14 48.26">
     <text x="606.95" y="103.28" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="32" fill="#1F4E79" font-weight="bold" data-pptx-carrier="true">{{SECTION_TITLE}}</text>
   </g>
-  <g id="slot-cards-2" data-pptx-placeholder="body" data-pptx-bounds="100.16 120 1083.01 540">
+  <g id="slot-cards-2" data-pptx-placeholder="body" data-pptx-idx="1" data-pptx-bounds="100.16 120 1083.01 540">
     <text x="228" y="460" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="32" fill="#1F4E79" font-weight="bold" data-pptx-carrier="true">{{CARD_CONTENT}}</text>
   </g>
   <rect x="100" y="420" width="256" height="156" rx="12" fill="#1F4E79" />

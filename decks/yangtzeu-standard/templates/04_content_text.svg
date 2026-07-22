@@ -6,10 +6,10 @@
   <g id="slot-content_text-1" data-pptx-placeholder="title" data-pptx-bounds="88 71.51 820 73.85">
     <text x="97.45" y="121.76" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="53.33" fill="#404040" font-weight="bold" data-pptx-carrier="true">{{PAGE_TITLE}}</text>
   </g>
-  <g id="slot-content_text-2" data-pptx-placeholder="body" data-pptx-bounds="88 141.85 820 186.97">
+  <g id="slot-content_text-2" data-pptx-placeholder="body" data-pptx-idx="1" data-pptx-bounds="88 141.85 820 186.97">
     <text x="97.45" y="162.63" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#3B3838" data-pptx-carrier="true">{{CONTENT_AREA}}</text>
   </g>
-  <g id="slot-content_text-3" data-pptx-placeholder="picture" data-pptx-bounds="0 328.82 1280 391.18">
-    <image x="0" y="328.82" width="1280" height="391.18" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  <g id="slot-content_text-3" data-pptx-placeholder="picture" data-pptx-idx="2" data-pptx-bounds="0 328.82 1280 391.18">
+    <image x="0" y="328.82" width="1280" height="391.18" href="../images/image5.jpeg" preserveAspectRatio="none" data-pptx-carrier="true" />
   </g>
 </svg>
