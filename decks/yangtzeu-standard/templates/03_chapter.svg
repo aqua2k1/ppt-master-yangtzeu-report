@@ -2,7 +2,7 @@
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" id="master-bg" data-pptx-layer="master" data-pptx-editable="false" />
   <rect x="0" y="0" width="1280" height="9.5" fill="#1F4E79" id="master-topbar" data-pptx-layer="master" data-pptx-editable="false" />
   <image href="../images/image4.png" x="17.84" y="19.01" width="131.98" height="42.67" preserveAspectRatio="none" id="master-logo" data-pptx-layer="master" data-pptx-editable="false" />
-  <rect x="0" y="0" width="534.5" height="720" fill="#1F4E79" id="layout-chapter-bg" data-pptx-layer="layout" data-pptx-editable="false" />
+  <path d="M 655.26 168.91 L 655.26 551.06 L 614.41 551.06 L 599.11 524.51 L 583.81 551.06 L 177.22 551.05 L 177.22 168.91 L 655.26 168.91 Z" fill="#1F4E79" transform="rotate(270 416.23937008 359.98110236)" id="layout-chapter-bg" data-pptx-layer="layout" data-pptx-editable="false" />
   <rect x="525.17" y="0" width="9.34" height="120.98" fill="#1F4E79" id="layout-chapter-stripe-t" data-pptx-layer="layout" data-pptx-editable="false" />
   <rect x="525.17" y="599.02" width="9.34" height="120.98" fill="#1F4E79" id="layout-chapter-stripe-b" data-pptx-layer="layout" data-pptx-editable="false" />
   <rect x="217.32" y="120.98" width="8.35" height="478.03" fill="#1F4E79" id="layout-chapter-vline" data-pptx-layer="layout" data-pptx-editable="false" />

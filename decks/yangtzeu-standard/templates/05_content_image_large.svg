@@ -2,13 +2,15 @@
   <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" id="master-bg" data-pptx-layer="master" data-pptx-editable="false" />
   <rect x="0" y="0" width="1280" height="9.5" fill="#1F4E79" id="master-topbar" data-pptx-layer="master" data-pptx-editable="false" />
   <image href="../images/image4.png" x="17.84" y="19.01" width="131.98" height="42.67" preserveAspectRatio="none" id="master-logo" data-pptx-layer="master" data-pptx-editable="false" />
-  <g id="slot-image_large-1" data-pptx-placeholder="title" data-pptx-bounds="88 71.51 500 73.85">
-    <text x="97.45" y="121.76" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="53.33" fill="#404040" font-weight="bold" data-pptx-carrier="true">{{PAGE_TITLE}}</text>
+  <g id="slot-image_large-1" data-pptx-placeholder="picture" data-pptx-bounds="0 0 1280 720">
+    <image x="0" y="0" width="1280" height="720" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
   </g>
-  <g id="slot-image_large-2" data-pptx-placeholder="body" data-pptx-bounds="88 155 450 170">
-    <text x="97.45" y="175.78" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#3B3838" data-pptx-carrier="true">{{CONTENT_AREA}}</text>
+  <rect x="736" y="214" width="544" height="290" fill="#FFFFFF" id="layout-large-panel" data-pptx-layer="layout" data-pptx-editable="false" />
+  <path d="M 729.94 380.41 L 756.93 337.93 L 783.91 380.41 Z" fill="#5B9BD5" id="layout-large-tri" data-pptx-layer="layout" data-pptx-editable="false" />
+  <g id="slot-image_large-2" data-pptx-placeholder="title" data-pptx-bounds="951 268 115 42">
+    <text x="959.96" y="295.1" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="26.67" fill="#1F4E79" font-weight="bold" data-pptx-carrier="true">{{PAGE_TITLE}}</text>
   </g>
-  <g id="slot-image_large-3" data-pptx-placeholder="picture" data-pptx-bounds="560 60 720 630">
-    <image x="560" y="60" width="720" height="630" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  <g id="slot-image_large-3" data-pptx-placeholder="body" data-pptx-bounds="824 328 410 77">
+    <text x="833.76" y="348.77" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="18.67" fill="#1F4E79" data-pptx-carrier="true">{{CONTENT_AREA}}</text>
   </g>
 </svg>
