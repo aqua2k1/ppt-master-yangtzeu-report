@@ -1,6 +1,6 @@
 # ppt-master-yangtzeu-report — 长江大学 PPT 模板集合
 
-本仓库收集[ppt-master](https://github.com/hugohe3/ppt-master) 可用的独立 Deck 模板。每个模板是一个自包含的工作空间——clone 即用，无需安装脚本。
+本仓库收集 [ppt-master](https://github.com/hugohe3/ppt-master) 可用的独立 Deck 模板。每个模板是一个自包含的工作空间——clone 即用，无需安装脚本。
 
 ## 目录结构
 
@@ -42,25 +42,25 @@ AI 会自动定位 `templates/decks/` 目录、clone 仓库并完成注册，之
 
 ## 模板一：yangtzeu-report — 长江大学通用学术汇报
 
-| 项目 | 内容 |
-|---|---|
-| 适用场景 | 学术会议汇报、课堂汇报、组会（周报式）汇报 |
-| 画布 | 1024×768 (4:3, `ppt43`) |
-| 主色 | `#F07F09`（橙）+ `#9F2936`（红） |
-| 结构 | 1 Master, 13 Layouts, 5 页原型 + 9 个 definition-only 版式 |
-| 路径 | `decks/yangtzeu-report/` |
+| 项目       | 内容                                                              |
+|------------|-------------------------------------------------------------------|
+| 适用场景   | 学术会议汇报、课堂汇报、组会（周报式）汇报                         |
+| 画布       | 1024×768（4:3，`ppt43`）                                           |
+| 主色       | `#F07F09`（橙）+ `#9F2936`（红）                                    |
+| 结构       | 1 Master，13 Layouts，5 页原型 + 9 个 definition-only 版式          |
+| 路径       | `decks/yangtzeu-report/`                                          |
 
 ### 页面原型（5 页）
 
 <table>
   <tr>
-    <td align="center"><img src="decks/yangtzeu-report/previews/001_cover.png" width="320"><br><b>封面</b></td>
-    <td align="center"><img src="decks/yangtzeu-report/previews/002_content.png" width="320"><br><b>内容页</b></td>
-    <td align="center"><img src="decks/yangtzeu-report/previews/003_chapter.png" width="320"><br><b>章节页</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/001_cover.png"    width="320"><br><b>封面</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/002_content.png"  width="320"><br><b>内容页</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/003_chapter.png"  width="320"><br><b>章节页</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="decks/yangtzeu-report/previews/004_content.png" width="320"><br><b>内容页</b></td>
-    <td align="center"><img src="decks/yangtzeu-report/previews/005_ending.png" width="320"><br><b>致谢结尾页</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/004_content.png"  width="320"><br><b>内容页</b></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/005_ending.png"   width="320"><br><b>致谢结尾页</b></td>
     <td></td>
   </tr>
 </table>
@@ -89,39 +89,39 @@ AI 会自动定位 `templates/decks/` 目录、clone 仓库并完成注册，之
 
 ## 模板二：yangtzeu-standard — 长江大学理工类院系标准蓝色
 
-| 项目 | 内容 |
-|---|---|
-| 适用场景 | 院系学术汇报、项目答辩、课题进展、年度工作总结 |
-| 画布 | 1280×720 (16:9, `ppt169`) |
-| 主色 | `#1F4E79`（深蓝）+ `#5B9BD5`（中蓝） |
-| 结构 | 1 Master, 11 Layouts, 13 页原型 |
-| 路径 | `decks/yangtzeu-standard/` |
+| 项目       | 内容                                                              |
+|------------|-------------------------------------------------------------------|
+| 适用场景   | 院系学术汇报、项目答辩、课题进展、年度工作总结                     |
+| 画布       | 1280×720（16:9，`ppt169`）                                         |
+| 主色       | `#1F4E79`（深蓝）+ `#5B9BD5`（中蓝）                                |
+| 结构       | 1 Master，11 Layouts，13 页原型                                     |
+| 路径       | `decks/yangtzeu-standard/`                                        |
 
 ### 页面原型（13 页）
 
 <table>
   <tr>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/01_cover.png" width="280"><br><b>封面</b></td>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/02_toc.png" width="280"><br><b>目录</b></td>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/03_chapter.png" width="280"><br><b>章节过渡</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/01_cover.png"                width="320"><br><b>封面</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/02_toc.png"                  width="320"><br><b>目录</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/03_chapter.png"              width="320"><br><b>章节过渡</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/04_content_text.png" width="280"><br><b>正文-双栏</b></td>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/05_content_image_large.png" width="280"><br><b>正文-大图</b></td>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/06_content_image_double.png" width="280"><br><b>正文-双图</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/04_content_text.png"         width="320"><br><b>正文 · 双栏</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/05_content_image_large.png"  width="320"><br><b>正文 · 大图</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/06_content_image_double.png" width="320"><br><b>正文 · 双图</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/07_content_numbered.png" width="280"><br><b>正文-编号列表</b></td>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/08a_content_cards.png" width="280"><br><b>要点卡片 A</b></td>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/08b_content_cards.png" width="280"><br><b>要点卡片 B</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/07_content_numbered.png"     width="320"><br><b>正文 · 编号列表</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/08a_content_cards.png"       width="320"><br><b>要点卡片 A</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/08b_content_cards.png"       width="320"><br><b>要点卡片 B</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/08c_content_cards.png" width="280"><br><b>要点卡片 C</b></td>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/09a_content_images.png" width="280"><br><b>方形图片集</b></td>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/09b_content_images.png" width="280"><br><b>竖形图片集</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/08c_content_cards.png"       width="320"><br><b>要点卡片 C</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/09a_content_images.png"      width="320"><br><b>方形图片集</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/09b_content_images.png"      width="320"><br><b>竖形图片集</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="decks/yangtzeu-standard/previews/10_ending.png" width="280"><br><b>结束页</b></td>
+    <td align="center"><img src="decks/yangtzeu-standard/previews/10_ending.png"               width="320"><br><b>结束页</b></td>
     <td></td>
     <td></td>
   </tr>
