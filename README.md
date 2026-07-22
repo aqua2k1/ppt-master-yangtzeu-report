@@ -1,6 +1,6 @@
 # ppt-master-yangtzeu-report — 长江大学 PPT 模板集合
 
-本仓库收集 [ppt-master](https://github.com/hugohe3/ppt-master) 可用的独立 Deck 模板。每个模板是一个自包含的工作空间——clone 即用，无需安装脚本。
+本仓库收集 [ppt-master](https://github.com/hugohe3/ppt-master) 可用的独立 Deck 模板。
 
 ## 目录结构
 
