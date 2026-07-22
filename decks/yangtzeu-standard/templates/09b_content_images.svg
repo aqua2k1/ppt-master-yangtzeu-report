@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="master-default" data-pptx-master-name="长江大学理工院系标准" data-pptx-layout="content_images_portrait" data-pptx-layout-name="正文-竖形图片集">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" id="master-bg" data-pptx-layer="master" data-pptx-editable="false" />
+  <rect x="0" y="0" width="1280" height="9.5" fill="#1F4E79" id="master-topbar" data-pptx-layer="master" data-pptx-editable="false" />
+  <image href="../images/image4.png" x="17.84" y="19.01" width="131.98" height="42.67" preserveAspectRatio="none" id="master-logo" data-pptx-layer="master" data-pptx-editable="false" />
+  <g id="slot-images-1" data-pptx-placeholder="title" data-pptx-bounds="88 71.51 400 73.85">
+    <text x="97.45" y="121.76" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="53.33" fill="#404040" font-weight="bold" data-pptx-carrier="true">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="slot-images-2" data-pptx-placeholder="body" data-pptx-bounds="88 150 1104 520">
+    <text x="198" y="400" text-anchor="middle" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="16" fill="#1F4E79" data-pptx-carrier="true">{{IMAGE_CONTENT}}</text>
+  </g>
+  <g id="slot-images-3" data-pptx-placeholder="picture" data-pptx-bounds="88 150 220 480">
+    <image x="88" y="150" width="220" height="480" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  </g>
+  <g id="slot-images-4" data-pptx-placeholder="picture" data-pptx-bounds="340 150 220 480">
+    <image x="340" y="150" width="220" height="480" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  </g>
+  <g id="slot-images-5" data-pptx-placeholder="picture" data-pptx-bounds="592 150 220 480">
+    <image x="592" y="150" width="220" height="480" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  </g>
+  <g id="slot-images-6" data-pptx-placeholder="picture" data-pptx-bounds="844 150 220 480">
+    <image x="844" y="150" width="220" height="480" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  </g>
+</svg>

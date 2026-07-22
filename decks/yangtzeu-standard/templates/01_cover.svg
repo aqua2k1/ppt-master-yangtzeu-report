@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="master-default" data-pptx-master-name="长江大学理工院系标准" data-pptx-layout="cover" data-pptx-layout-name="封面">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" id="master-bg" data-pptx-layer="master" data-pptx-editable="false" />
+  <rect x="0" y="0" width="1280" height="9.5" fill="#1F4E79" id="master-topbar" data-pptx-layer="master" data-pptx-editable="false" />
+  <image href="../images/image4.png" x="17.84" y="19.01" width="131.98" height="42.67" preserveAspectRatio="none" id="master-logo" data-pptx-layer="master" data-pptx-editable="false" />
+  <rect x="0" y="532.84" width="1280" height="187.5" fill="#1F4E79" id="layout-cover-overlay" data-pptx-layer="layout" data-pptx-editable="false" />
+  <rect x="0" y="523.16" width="1280" height="11.68" fill="#FFFFFF" id="layout-cover-divider" data-pptx-layer="layout" data-pptx-editable="false" />
+  <g id="slot-cover-1" data-pptx-placeholder="title" data-pptx-bounds="566.66 555.82 648.34 125.06">
+    <text x="576.11" y="601.53" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="48" fill="#FFFFFF" font-weight="bold" data-pptx-carrier="true">{{TITLE}}</text>
+  </g>
+  <g id="slot-cover-2" data-pptx-placeholder="subtitle" data-pptx-bounds="916.5 622 253.34 58.34">
+    <text x="925.95" y="658.64" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="37.33" fill="#FFFFFF" data-pptx-carrier="true">{{SUBTITLE}}</text>
+  </g>
+  <g id="slot-cover-3" data-pptx-placeholder="picture" data-pptx-bounds="-0.98 9.49 1281.98 523.16">
+    <image x="-0.98" y="9.49" width="1281.98" height="523.16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII=" preserveAspectRatio="none" data-pptx-carrier="true" />
+  </g>
+</svg>

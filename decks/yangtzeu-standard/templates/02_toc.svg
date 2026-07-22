@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="720" viewBox="0 0 1280 720" data-pptx-master="master-default" data-pptx-master-name="长江大学理工院系标准" data-pptx-layout="toc" data-pptx-layout-name="目录">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" id="master-bg" data-pptx-layer="master" data-pptx-editable="false" />
+  <rect x="0" y="0" width="1280" height="9.5" fill="#1F4E79" id="master-topbar" data-pptx-layer="master" data-pptx-editable="false" />
+  <image href="../images/image4.png" x="17.84" y="19.01" width="131.98" height="42.67" preserveAspectRatio="none" id="master-logo" data-pptx-layer="master" data-pptx-editable="false" />
+  <image href="../images/image4.png" x="1135.48" y="18.18" width="132.17" height="42.67" preserveAspectRatio="none" id="layout-toc-logo-r" data-pptx-layer="layout" data-pptx-editable="false" />
+  <rect x="789.62" y="109.3" width="203.64" height="203.68" fill="none" stroke="#1F4E79" stroke-width="2" id="layout-toc-decor" data-pptx-layer="layout" data-pptx-editable="false" transform="rotate(45.38 891.44 211.14)" />
+  <g id="slot-toc-1" data-pptx-placeholder="title" data-pptx-bounds="805.53 151.82 178.96 105.86">
+    <text x="814.98" y="224.74" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="80" fill="#000000" data-pptx-carrier="true">{{TOC_TITLE}}</text>
+  </g>
+  <g id="slot-toc-2" data-pptx-placeholder="body" data-pptx-bounds="108.77 71.85 526.09 546.18">
+    <text x="118.22" y="122.1" text-anchor="start" xml:space="preserve" font-family="&quot;微软雅黑&quot;, sans-serif" font-size="53.33" fill="#404040" font-weight="bold" data-pptx-carrier="true">{{TOC_ITEMS}}</text>
+  </g>
+</svg>
