@@ -33,22 +33,61 @@ page_count: 14
 
 ## II. Color Scheme
 
-| 角色 | HEX | 说明 |
-|---|---|---|
-| Primary | `#F07F09` | 橙色强调:议程编号/竖线、结尾页大字与分隔线 |
-| Secondary | `#9F2936` | 深红:顶部饰带、底部渐变起始色 |
-| Secondary | `#902430` | 深红(渐变端):底部渐变条 |
-| Tint | `#FBC58E` / `#FCD9B4` | 橙金渐变中间/端色:底部渐变条、结尾页顶部渐变 |
-| Ending band | `#261270` | 结尾页深紫蓝横幅底色 |
-| Background | `#FFFFFF` | 页面底色 |
-| Neutral tint | `#E3DED1` | 米白辅助色(lt2) |
-| Text | `#000000` / `#323232` | 正文与深色文字 |
+| 角色 | HEX | spec_lock key | 说明 |
+|---|---|---|---|
+| Primary | `#F07F09` | `primary` | 橙色强调：议程编号/竖线、结尾页大字与分隔线 |
+| Secondary | `#9F2936` | `secondary` | 深红：顶部饰带、结尾页椭圆装饰 |
+| Secondary-dark | `#902430` | `secondary_dark` | 深红(渐变端)：底部渐变条起始色 |
+| Tint-orange | `#FBC58E` | `tint_orange` | 橙金渐变中间色：底部渐变条、结尾页顶部渐变 |
+| Tint-light | `#FCD9B4` | `tint_light` | 橙金渐变端色 |
+| Ending-band | `#261270` | `ending_band` | 结尾页深紫蓝横幅底色 |
+| Background | `#FFFFFF` | `background` | 页面主底色 |
+| Neutral | `#E3DED1` | `neutral` | 米白辅助色(lt2) |
+| Text | `#000000` | `text` | 正文黑色文字（母版校训、封面标题、章节标题） |
+| Text-alt | `#323232` | `text_alt` | 深灰文字（备选正文色） |
+
+> **spec_lock.md 用法**：在 `## colors` 段中声明以上所有颜色。key 列给出了推荐的 spec_lock key 名称。
 
 ## III. Typography
 
-- 标题/正文主题字体:`"华文中宋", sans-serif`(源主题 major/minor 字体均为华文中宋;Windows 环境通常未预装,需安装或回退到宋体类 serif)
-- 校训文字:"楷体", "微软雅黑", sans-serif,加粗
-- 正文字号基线约 24px(4:3 画布)
+- 标题/正文主题字体：`"华文中宋", sans-serif`（源主题 major/minor 字体均为华文中宋；Windows 环境通常未预装，需安装或回退到宋体类 serif）
+- 校训文字：`"楷体", "微软雅黑", sans-serif`，加粗
+- 画布：4:3 (1024×768)，字号为 PPTX 原生字号经 mirror 复制后的精确值
+
+### 字号角色表（模板 SVG 中全部使用的 font-size）
+
+| 角色 | 字号(px) | spec_lock key | 使用场景与模板页 |
+|---|---|---|---|
+| Footer-motto | 19.91 | `footer_motto` | 母版层"长大 长新"校训（全部页面右下角） |
+| Bullet-deep | 22.75 | `bullet_deep` | 第四/五级列表文字（`layout_layout_05`） |
+| Body-large | 25.6 | `body_large` | 封面标题/副标题占位、结尾页副标题；最常用正文尺寸（54 处） |
+| Subtitle-large | 28.45 | `subtitle_large` | 章节页副标题/描述、第二/三级列表（`003_chapter`, layouts） |
+| Body-xl | 29.87 | `body_xl` | 母版文本样式占位（`layout_layout_04`） |
+| Bullet-level2 | 34.13 | `bullet_level2` | 二级列表标题（`layout_layout_04`, `05`, `08`） |
+| Heading-level2 | 39.82 | `heading_level2` | 内容页二级标题（`layout_layout_08`） |
+| Section-subtitle | 45.51 | `section_subtitle` | 章节/内容页副标题级（`layout_layout_08`） |
+| Chapter-title | 56.89 | `chapter_title` | 章节过渡页主标题（`003_chapter`） |
+| Ending-title | 85.33 | `ending_title` | 结尾页致谢大字（`005_ending`） |
+
+> **spec_lock.md 用法**：在 `## typography` 段中声明以上所有字号角色。key 列给出了推荐的 spec_lock key 名称。直接复制为 `- <key>: <字号>` 格式即可。
+>
+> 示例：
+> ```markdown
+> ## typography
+> - font_family: "华文中宋", sans-serif
+> - title_family: "华文中宋", sans-serif
+> - body_family: "华文中宋", sans-serif
+> - footer_motto: 19.91
+> - bullet_deep: 22.75
+> - body_large: 25.6
+> - subtitle_large: 28.45
+> - body_xl: 29.87
+> - bullet_level2: 34.13
+> - heading_level2: 39.82
+> - section_subtitle: 45.51
+> - chapter_title: 56.89
+> - ending_title: 85.33
+> ```
 
 ## IV. Signature Design Elements
 
