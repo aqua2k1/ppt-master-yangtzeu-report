@@ -47,10 +47,10 @@ AI 会自动定位 `templates/decks/` 目录、clone 仓库并完成注册，之
 | 适用场景   | 学术会议汇报、课堂汇报、组会（周报式）汇报                         |
 | 画布       | 1024×768（4:3，`ppt43`）                                           |
 | 主色       | `#F07F09`（橙）+ `#9F2936`（红）                                    |
-| 结构       | 1 Master，13 Layouts，5 页原型 + 9 个 definition-only 版式          |
+| 结构       | 1 Master，14 Layouts（13 原生 + 1 新增 layout_toc），6 页原型 + 9 个 definition-only 版式 |
 | 路径       | `decks/yangtzeu-report/`                                          |
 
-### 页面原型（5 页）
+### 页面原型（6 页）
 
 <table>
   <tr>
@@ -61,7 +61,7 @@ AI 会自动定位 `templates/decks/` 目录、clone 仓库并完成注册，之
   <tr>
     <td align="center"><img src="decks/yangtzeu-report/previews/004_content.png"  width="320"><br><b>内容页</b></td>
     <td align="center"><img src="decks/yangtzeu-report/previews/005_ending.png"   width="320"><br><b>致谢结尾页</b></td>
-    <td></td>
+    <td align="center"><img src="decks/yangtzeu-report/previews/006_toc.png"      width="320"><br><b>目录</b></td>
   </tr>
 </table>
 
