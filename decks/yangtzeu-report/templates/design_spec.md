@@ -14,7 +14,7 @@ source_canvas_height: 720
 source_viewbox: "0 0 960 720"
 replication_mode: mirror
 native_structure_mode: structured
-page_count: 14
+page_count: 15
 ---
 
 # 长江大学通用学术汇报模板 — Design Specification
@@ -68,6 +68,8 @@ page_count: 14
 | Section-subtitle | 45.51 | `section_subtitle` | 章节/内容页副标题级（`layout_layout_08`） |
 | Chapter-title | 56.89 | `chapter_title` | 章节过渡页主标题（`003_chapter`） |
 | Ending-title | 85.33 | `ending_title` | 结尾页致谢大字（`005_ending`） |
+| Toc-title | 50 | `toc_title` | 目录页主标题（`006_toc`，实际内容由占位符决定，预览示例为"议程"） |
+| Toc-item | 32 | `toc_item` | 目录页议程项正文（`006_toc`） |
 
 > **spec_lock.md 用法**：在 `## typography` 段中声明以上所有字号角色。key 列给出了推荐的 spec_lock key 名称。直接复制为 `- <key>: <字号>` 格式即可。
 >
@@ -87,6 +89,8 @@ page_count: 14
 > - section_subtitle: 45.51
 > - chapter_title: 56.89
 > - ending_title: 85.33
+> - toc_title: 50
+> - toc_item: 32
 > ```
 
 ## IV. Signature Design Elements
@@ -94,6 +98,8 @@ page_count: 14
 - 母版页铬:左上角长江大学校徽(白色衬底压盖背景图原标识)、顶部红色饰带、底部红橙渐变条(`#902430`→`#FBC58E`→`#FCD9B4`)叠加纹理图、右下角"长大 长新"校训
 - 结尾页:全幅校园背景图 + 白色半透明过渡、深紫蓝(`#261270`)横幅、橙色 80px 大字与橙色分隔线、顶部右侧校徽裁剪贴片
 - 版式体系:单一母版下 13 个原生版式 —— 标题幻灯片、标题和内容、节标题、两栏内容、比较、仅标题、空白、内容与标题、图片与标题、标题和竖排文字、垂直排列标题与文本、自定义版式、2_自定义版式;正文区安全边距约 48–75px
+- 目录页(`006_toc`):5 个静态议程项,每项由**两个叠加层**构成 —— **底层**为白底直角矩形(`#FFFFFF` 填充,`#000000` 1.5px 描边,**无圆角**,816×60,`x=84, y=Y_pill+40`),右边缘与主框对齐、左/下两侧向外伸出(左 40px / 下 20px)形成"卡片叠加"层次装饰;**顶层**为主框(`#F5F5F5` 浅灰填充,`#666666` 1.5px 描边,`rx=12`,776×80,`x=124`);议程项垂直间距 100px(参考 `目录正文条目样式.svg`);标题居中 50pt,议程文本左对齐 32pt,**均使用 `#9F2936` 红色加粗**;议程项数固定为 5 槽(超出需手动编辑 SVG);母版页铬与其他原型一致
+- **母版图源提醒**:`image1.jpeg` 经校验是**武汉理工大学**(Wuhan University of Technology)母版背景(图内含"武汉理工大学"校徽与"厚德博学 追求卓越"校训),实际渲染中被 `image2.jpeg`(长江大学校徽)覆盖左半部分、被底部"长大 长新"文字覆盖右下角,因此大多数角度下看不出来;但仍属于异源图,后续如需彻底清洗可单独替换此图(全部 15 个原型/版式都引用它)
 - 图像行为:母版/结尾页使用全幅拉伸背景图(`preserveAspectRatio="none"`);结尾页校徽为 viewBox 裁剪贴片,裁切包装不可拍平
 
 ## V. Page Roster
@@ -105,6 +111,7 @@ page_count: 14
 | `003_chapter.svg` | 章节页原型 | master_01 / layout_03(节标题) | 中部大号章节标题(title)+ 描述文本(body)原生空占位符 |
 | `004_content.svg` | 内容页原型(空白版式) | master_01 / layout_07(空白) | 源空白页;纯版式演示(文件名由 chapter 修正为 content,见保存图) |
 | `005_ending.svg` | 结尾页原型 | master_01 / layout_13(2_自定义版式) | 深紫蓝横幅致谢页,两处 body 原生空占位符 |
+| `006_toc.svg` | 目录页原型 | master_01 / layout_toc(目录) | 5 组"卡片叠加"议程项(底层白底黑边直角矩形 816×60 左/下伸出 40/20px + 顶层 `#F5F5F5` 浅灰圆角矩形 776×80 `rx=12` 配 `#666666` 描边,5 项垂直间距 100px)+ 顶部"议程"标题;`#9F2936` 主红色加粗 32pt 议程文本;1 title + 5 object(idx 1–5)共 6 个可编辑占位符;母版 `master_01` 共享 |
 | `layout_layout_02.svg` | 版式定义(definition-only) | master_01 / layout_02(标题和内容) | 未被源页引用;标题 + 正文占位契约 |
 | `layout_layout_04.svg` | 版式定义(definition-only) | master_01 / layout_04(两栏内容) | 未被源页引用 |
 | `layout_layout_05.svg` | 版式定义(definition-only) | master_01 / layout_05(比较) | 未被源页引用 |
@@ -124,6 +131,7 @@ page_count: 14
 | slide 3 | slideMaster1 | slideLayout3(节标题) | `003_chapter.svg` | 完整保留(空占位符) |
 | slide 4 | slideMaster1 | slideLayout7(空白) | `004_content.svg` | 完整保留;页型文件名由导入启发式 chapter 修正为 content(空白内容页) |
 | slide 5 | slideMaster1 | slideLayout13(2_自定义版式) | `005_ending.svg` | 完整保留;装饰矢量组(layout:22)由提取资产回Inline为原生形状,视觉等价 |
+| —(新增) | slideMaster1 | layout_toc(目录) | `006_toc.svg` | 新增目录页,基于 `目录.png` 与 `目录正文条目样式.svg` 参考设计(底层白底黑边直角矩形卡片叠加 + 顶层 `#F5F5F5` 浅灰圆角主框 + 红色加粗序号/正文);5 个议程槽对应典型学术汇报的 5 段式目录;共享母版 `master_01` |
 | —(未被引用) | slideMaster1 | slideLayout2/4/5/6/8/9/10/11/12 | `layout_layout_02/04/05/06/08/09/10/11/12.svg` | definition-only 版式定义,父母版 slideMaster1 |
 
 ## VI. Assets
